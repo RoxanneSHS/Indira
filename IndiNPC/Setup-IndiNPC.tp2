@@ -173,6 +173,10 @@ ACTION_IF GAME_IS ~bgt~ THEN BEGIN
   EXTEND_TOP ~aram00.bcs~ ~IndiNPC/Scripts/append_aram00.baf~
 END
 
+ACTION_IF GAME_IS ~bgee eet~ THEN BEGIN
+  EXTEND_TOP ~bd0103.bcs~ ~IndiNPC/Scripts/append_aram00.baf~
+END
+
 ACTION_IF GAME_IS ~eet~ BEGIN
 	APPEND ~BGDIALOG.2da~ ~J#Indi       J#IndiP            J#IndiJ          J#IndiD~ UNLESS ~J#Indi~
 	APPEND ~BGBANTER.2da~ ~J#Indi       J#IndiB~                                     UNLESS ~J#Indi~
