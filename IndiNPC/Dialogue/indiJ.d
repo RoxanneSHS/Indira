@@ -330,9 +330,7 @@ INTERJECT %er_tutu%halfg4 0 j#indihalflingtyke
      @64
 END %er_tutu%halfg4 3
 
-A_T_T %er_tutu%alvahe 0 ~Global("j#indialvanhendar","GLOBAL",1)~
-
-I_C_T2 %er_tutu%alvahe 0 j#indialvanhendar
+I_C_T %er_tutu%alvahe 0 j#indialvanhendar
   == J#IndiJ IF ~IsValidForPartyDialog("J#Indi")~ THEN
      @65
   == %er_tutu%alvahe IF ~IsValidForPartyDialog("J#Indi")~ THEN
