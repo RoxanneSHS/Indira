@@ -200,13 +200,4 @@ ACTION_IF GAME_IS ~eet~ BEGIN
 		OUTER_SPRINT lng ~en_US~
 	END
 	INCLUDE ~EET/other/EET_functions.tph~
-	LAF ~EET_NPC_TRANSITION~
-		INT_VAR
-			type = 1
-		STR_VAR
-			dv = "J#Indi"
-			override_BG1 = "J#Indi"
-			traFile = EVAL "EET/lang/%lng%/compatibility.tra"
-			string = "@5000000"
-	END
 END
